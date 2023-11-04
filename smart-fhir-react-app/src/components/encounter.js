@@ -19,10 +19,10 @@ class Encounter extends Component {
                     <div className='col-md-6'>
                         <label className="form-label">Height:</label>
                         <div className='row'>
-                            <div class="col-auto">
-                                <input type="text" class="form-control" id="txtHeight" />
+                            <div className="col-auto">
+                                <input type="text" className="form-control" id="txtHeight" />
                             </div>
-                            <div class="col-auto">
+                            <div className="col-auto">
                                 <input className="form-check-input me-1 align-middle" type="radio" name="radioHeigh" id="radioHeighCm" />
                                 <label className="form-check-label me-3 align-middle" htmlFor="radioHeighCm">cm</label>
                                 <input className="form-check-input me-1 align-middle" type="radio" name="radioHeigh" id="radioHeighInch" />
@@ -33,10 +33,10 @@ class Encounter extends Component {
                     <div className='col-md-6'>
                         <label className="form-label">Height Percentile:</label>
                         <div className='row'>
-                            <div class="col-auto">
-                                <input type="text" class="form-control" id="txtHeightPerc" />
+                            <div className="col-auto">
+                                <input type="text" className="form-control" id="txtHeightPerc" />
                             </div>
-                            <div class="col-auto">
+                            <div className="col-auto">
                                 <label className="form-check-label" htmlFor="txtHeightPerc">%</label>
                             </div>
                         </div>
@@ -45,10 +45,10 @@ class Encounter extends Component {
                     <div className='col-md-6 mt-3'>
                         <label className="form-label">Weight:</label>
                         <div className='row'>
-                            <div class="col-auto">
-                                <input type="text" class="form-control" id="txtWeight" />
+                            <div className="col-auto">
+                                <input type="text" className="form-control" id="txtWeight" />
                             </div>
-                            <div class="col-auto">
+                            <div className="col-auto">
                                 <input className="form-check-input me-1 align-middle" type="radio" name="radioWeight" id="radioWeightKg" />
                                 <label className="form-check-label me-3 align-middle" htmlFor="radioWeightKg">kg</label>
                                 <input className="form-check-input me-1 align-middle" type="radio" name="radioWeight" id="radioWeightLb" />
@@ -59,10 +59,10 @@ class Encounter extends Component {
                     <div className='col-md-6 mt-3'>
                         <label className="form-label">Weight Percentile:</label>
                         <div className='row'>
-                            <div class="col-auto">
-                                <input type="text" class="form-control" id="txtWeightPerc" />
+                            <div className="col-auto">
+                                <input type="text" className="form-control" id="txtWeightPerc" />
                             </div>
-                            <div class="col-auto">
+                            <div className="col-auto">
                                 <label className="form-check-label" htmlFor="txtWeightPerc">%</label>
                             </div>
                         </div>
@@ -71,18 +71,18 @@ class Encounter extends Component {
                     <div className='col-md-4 mt-3'>
                         <label className="form-label">BMI Value:</label>
                         <div className='row'>
-                            <div class="col-auto">
-                                <input type="text" class="form-control" id="txtBMI" />
+                            <div className="col-auto">
+                                <input type="text" className="form-control" id="txtBMI" />
                             </div>
                         </div>
                     </div>
                     <div className='col-md-4 mt-3'>
                         <label className="form-label">BMI Percentile:</label>
                         <div className='row'>
-                            <div class="col-auto">
-                                <input type="text" class="form-control" id="txtBMIPerc" />
+                            <div className="col-auto">
+                                <input type="text" className="form-control" id="txtBMIPerc" />
                             </div>
-                            <div class="col-auto">
+                            <div className="col-auto">
                                 <label className="form-check-label">%</label>
                             </div>
                         </div>
@@ -90,10 +90,10 @@ class Encounter extends Component {
                     <div className='col-md-4 mt-3'>
                         <label className="form-label">Weight-for-Length Percentile:</label>
                         <div className='row'>
-                            <div class="col-auto">
-                                <input type="text" class="form-control" id="txtWeighLengthtPerc" />
+                            <div className="col-auto">
+                                <input type="text" className="form-control" id="txtWeighLengthtPerc" />
                             </div>
-                            <div class="col-auto">
+                            <div className="col-auto">
                                 <label className="form-check-label">%</label>
                             </div>
                         </div>
